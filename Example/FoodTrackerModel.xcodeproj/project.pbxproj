@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		35D3F71D696F6554BFBCA5C9 /* Pods_FoodTrackerModel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1911F49B5CEA84CD00194E6 /* Pods_FoodTrackerModel_Tests.framework */; };
 		486CB2DF224A36C700D367CE /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486CB2DE224A36C700D367CE /* FoodTrackerTests.swift */; };
+		486CB2E1224A3C7000D367CE /* Pods_FoodTrackerModel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486CB2E0224A3C7000D367CE /* Pods_FoodTrackerModel_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		E26CFD5FDB17F1D81FD8BA5E /* Pods_FoodTrackerModel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F92F410BD68C48A78AC83E /* Pods_FoodTrackerModel_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +33,7 @@
 		22BE542C83D0FD36CAFBB76D /* Pods-FoodTrackerModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrackerModel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FoodTrackerModel_Tests/Pods-FoodTrackerModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		39A612AC502C1E7DD3D8D729 /* Pods-FoodTrackerModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrackerModel_Example.release.xcconfig"; path = "Target Support Files/Pods-FoodTrackerModel_Example/Pods-FoodTrackerModel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		486CB2DE224A36C700D367CE /* FoodTrackerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
+		486CB2E0224A3C7000D367CE /* Pods_FoodTrackerModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_FoodTrackerModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* FoodTrackerModel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTrackerModel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E26CFD5FDB17F1D81FD8BA5E /* Pods_FoodTrackerModel_Example.framework in Frameworks */,
+				486CB2E1224A3C7000D367CE /* Pods_FoodTrackerModel_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +75,7 @@
 		0B567F9004E722BADA0B8E57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				486CB2E0224A3C7000D367CE /* Pods_FoodTrackerModel_Example.framework */,
 				F4F92F410BD68C48A78AC83E /* Pods_FoodTrackerModel_Example.framework */,
 				D1911F49B5CEA84CD00194E6 /* Pods_FoodTrackerModel_Tests.framework */,
 			);
